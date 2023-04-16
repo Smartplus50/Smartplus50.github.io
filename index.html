@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Product Expo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      p {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px;
+         font-family: "Times New Roman", Times, serif;
+
+
+
+
+      }
+      header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px;
+      }
+      header h1 {
+        margin: 0;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      nav li {
+        float: left;
+      }
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav li a:hover {
+        background-color: #111;
+      }
+      section {
+        padding: 15px;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+
+      #example{
+        position: relative;
+        width: 520px;
+        height: 220px;
+      }
+
+      #player {
+          width: 17px;
+          height: 24px;
+           background: rgba(0,0,0,0.0);
+          position: relative;
+          top: 180px;
+      }
+      #background {
+          width: 500px;
+          height: 190px;
+          top: 0;
+      }
+
+      #red-area {
+          width: 37px;
+          height: 50px;
+      background:  rgba(0,0,0,0.0);
+          position: relative;
+          top: 140px;
+          left: 200px;
+      }
+      #green-area {
+          width: 37px;
+          height: 50px;
+          background-color: green;
+          position: absolute;
+          top: 100px;
+          left: 300px;
+      }
+      #google-window {
+          display: none;
+          position: relative;
+          bottom: 20;
+          left: 0;
+          right: 0;
+          height: 280px;
+          width: 510px;
+      }
+
+      img {
+max-width: 100%;
+max-height: 100%;
+}
+    </style>
+  </head>
+  <body>
+    <img id="texture" src="texture.png" style="display: none">
+<img id="background" src="background.png" style="display: none">
+<img id="tree" src="sprite.png" style="display: none">
+<img id="floor-texture" src="floor.png" style="display: none;">
+    <header>
+      <h1>Virtual Product Expo</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#roles">Roles and Responsibilities</a></li>
+        <li><a href="#contact">Contact Info</a></li>
+        <li><a href="#knowledge">Knowledge of Issue/Client</a></li>
+        <li><a href="#aims">Project Aims</a></li>
+        <li><a href="#approach">Design Approach</a></li>
+        <li><a href="#solution">Product/Solution</a></li>
+      </ul>
+    </nav>
+    <section id="roles">
+      <h2>Roles and Responsibilities</h2>
+    <p>Anas Halideen - <b>Project Manager</b></p>
+	   <p> Malik Mohamed Mujtaba - <b>Back End Developer</b></p>
+	   <p> Reisya Dharmawangsa Bagus - <b>Back End Developer</b></p>
+	   <p> Malik Talha - <b>UI/UX Developer</b></p>
+	   <p> Brijesh Gurung - <b>Front End Developer</b></p>
+	   <p> Mubarak Ali Mubassara Sirin - <b>Business Analyst</b></p>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+      <h2>Contact Info</h2></br>
+      <h3>About Us</h3>
+	  <p> Our company ABC ltd is a software house for developing web-based platforms for trade expos that would like a “virtual alternative” of their current set-up of a regular expo.</p>
+	  <p>Instead of a “Live”& “in person” event at a physical location, Our software house develops an online system where different attendees, from around the world,
+	  can gather and experience a trade expo virtually with all the aspects of a regular expo, all in the comfort of the attendee’s web capable device of choice.</p>
+	  <br>
+      <h3>Contact Us</h3>
+      <p>You can contact us at ABC-companyltd@gmail.com </p>
+    </section>
+
+    <hr>
+
+    <section id="knowledge">
+      <h2>Knowledge of Issue/Client</h2>
+      <p> Prior to the pandemic, face-to-face exhibitions were the norm.
+	  Many businesses will set up their trade booths to promote their business and to reach a wider audience.
+	  Recently, companies opted for virtual trade exhibitions, to prevent the spread of the covid-19.  </p>
+    </section>
+
+    <hr>
+
+    <section id="aims">
+      <h2>Project Aims</h2>
+
+      <p>Create a web-based platform for a 3D-like virtual event exhibitions.</p>
+<p>Offer engaging features & robust data tracking measures.</p>
+<p>Better brand visibility & increased exposure for exhibitors.</p>
+<p>Set up trade shows booths that fit the requirements to suit exhibitor's brands image.</p>
+<p>Simple UI/UX for attendees to understand the navigational process of the 3D-like virtual expo.</p>
+<p>Chat functionality at trade show booths to allow seamless live chats between brands and attendees.</p>
+<p>Data tracking to ensure digital attendee footprint.</p>
+    </section>
+
+    <hr>
+
+    <section id="approach">
+      <h2> Software Design Approach</h2>
+    <p><b>Top down Design model</b></p>
+	<p>In order to get our project done, we'll be using the top-down model (stepwise refinement method) </p>
+	<p>Problems are broken down into smaller parts</p>
+
+	<p>We break the task we need to do in parts, and then break that part of the task into seperate parts
+	and thus, each of parts will be easy to do.</p>
+<br>
+  <div id="example"><img src="top-downapproach.png"/></div>
+<br>
+
+
+	<p>This diagram illustrates our design process using the stepwise refinement method (top-down model). </p>
+	<p>Tasks for building the User’s section of the virtual event are divided into parts for our team to complete. </p>
+	<p>Breaking problems into parts helps identify what needs to be done and allows for easier problem-solving and collaboration. </p>
+	<p>Top-down design is suitable when designing software from scratch with unknown details.</p>
+
+<hr>
+
+	<section id="Methodology">
+      <h2>Software Development Methodology</h2>
+      <p>Considering the deadline for our project, we will be using the Agile development to develop our project.</p>
+        <p>Thus, we will be able to be more efficient as we develop through quick SCRUM sprints that we are able to iterate on. </p>
+        <p>Over the course of the project, we will be able to adjust our development objectives and monitor our progress while making any necessary changes along the way.</p>
+    </section>
+
+<hr>
+
+    <section id="solution">
+      <h2>Product/Solution</h2>
+      <p>To display our virtual product expo, we essentially make up an isometric venue to give a
+      psudo 3d perspective.</p>
+
+      <p>Essentially, the attendees can move around the venue, as he can access an exhibitor's booth
+    by heading to the nearest booth, when doing so, a new window pops up below showing
+      exhibitor's booth item, and chat options etc.</p>
+<p> If the attendee wants to visit another booth, they can exit by passing through them and head into a new booth.</p>
+      <br>
+
+
+<h5>press the <- or -> arrow keys to move the player around. <h5>
+    <div id="player"><img src="guy.png"/></div>
+    <div id="red-area"><img src="Isometric_cube3.png"/></div>
+    <div id="background"><img src="newnewbg.png"/></div>
+
+    <iframe id="google-window" src="example.html"></iframe>
+
+    <script>
+        let player = document.querySelector("#player");
+        let redArea = document.querySelector("#red-area");
+        let googleWindow = document.querySelector("#google-window");
+        let x = 5;
+        let y = 180;
+
+        window.addEventListener("keydown", function(event) {
+            if (event.key === "ArrowLeft") {
+                x -= 5;
+            } else if (event.key === "ArrowRight") {
+                x += 5;
+            }
+            player.style.left = x + "px";
+            player.style.top = y + "px";
+
+            let playerRect = player.getBoundingClientRect();
+            let redAreaRect = redArea.getBoundingClientRect();
+
+
+        if(playerRect.x < 13){  x = 13;}
+          if(playerRect.x > 420){  x = 420;}
+
+
+            if (playerRect.x < redAreaRect.x + redAreaRect.width &&
+                playerRect.x + playerRect.width > redAreaRect.x &&
+                playerRect.y < redAreaRect.y + redAreaRect.height &&
+                playerRect.y + playerRect.height > redAreaRect.y)  {
+                googleWindow.style.display = "block";
+            } else {
+                googleWindow.style.display = "none";
+            }
+
+        });
+    </script>
+    </section>
+
+
+
+  <section>
+    <!-- Add a footer to the page -->
+    <footer>&copy; Virtual Product Expo 2023</footer>
+
+
+  </section>
+
+  </body>
+
+</html>
