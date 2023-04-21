@@ -28,6 +28,7 @@
 </head>
 <style>
 
+
    #example{
      position: relative;
      width: 520px;
@@ -73,6 +74,11 @@
        right: 0;
        height: 280px;
        width: 388px;
+   }
+   #box{
+      float: right;
+      position: relative;
+    top: 100;
    }
 
    img {
@@ -250,7 +256,7 @@ max-height: 100%;
         </div>
 
       </div>
-    </section><
+    </section>
 
     <section id="why-us">
       <div class="container" data-aos="fade-up">
@@ -323,17 +329,35 @@ max-height: 100%;
 
 
   <br>
-
-
-<h5>press the <- or -> arrow keys to move the player around. <h5>
 </p>
 </div>
 </section>
+
+
+  <section id="demo" class="section-bg">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header">
+      <h3>Demo</h3>
+    </header>
+<h2 class="text-center"> press the <- or -> arrow keys to move the player around. </h5>
+
 </div>
-    <div id="player"><img src="guy.png"/></div>
-    <div id="red-area"><img src="Isometric_cube3.png"/></div>
-    <div id="background"><img src="newbackground.png"/></div>
+<div id ="box">
+  <img src="./logo.png" width="250px " height ="250 px ">
+</div>
+
+    <div id="player" ><img src="guy.png"/></div>
+    <div id="red-area" ><img src="Isometric_cube3.png"/></div>
+    <div id="background" ><img src="newbackground.png"/></div>
+    <br>
+
 <br>
+<div id ="box">
+  <img src="./betterdesign.png" width="800px " height ="250 px ">
+</div>
+</div>
+</div>
+
 
     <iframe id="google-window" src="example.html"></iframe>
 <br>
@@ -359,8 +383,8 @@ max-height: 100%;
             let redAreaRect = redArea.getBoundingClientRect();
 
 
-            if(playerRect.x < 30 || playerRect.x > 390){x = 31;}
-            if(playerRect.x < 30 || playerRect.x > 390){y = 55;}
+            if(playerRect.x < 30 || playerRect.x > 355){x = 31;}
+            if(playerRect.x < 30 || playerRect.x > 355){y = 55;}
           //if(playerRect.x > 383){x = 380;}
         //  if(playerRect.x > 383){y = 230;}
 
@@ -381,6 +405,7 @@ max-height: 100%;
 
 
         </div>
+</section>
 
 
 
